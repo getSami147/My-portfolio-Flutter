@@ -15,10 +15,7 @@ You can explore the live version of the website [Click to see live demo](https:/
 - [Key Features](#key-features)
 - [Technologies and Packages Used](#technologies-and-packages-used)
 - [Getting Started](#getting-started)
-- [Usage Guide](#usage-guide)
-- [Contributions](#contributions)
-- [Contact Me](#contact-me)
-- [License](#license)
+
 
 ## Key Features
 
