@@ -16,7 +16,6 @@ class IntroBody extends StatelessWidget {
       children: [
         SingleChildScrollView(
         physics: const BouncingScrollPhysics(),
-
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,

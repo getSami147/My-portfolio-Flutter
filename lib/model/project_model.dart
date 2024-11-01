@@ -19,28 +19,53 @@ List<Project> projectList = [
     '• Integrated Stripe for subscription.',
     
     ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
-    'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+    'https://github.com/getSami147/AI-Voice-Changer.git',
   ),
   Project(
-    '2) Prestige+ (User Side and Vendor Side App)',
-    'Developed a user-side platform for a Nigerian client enabling product sales using Prestige Points. The platform includes multiple shops with categorized products, allowing users to browse, add to cart, and place orders. Features like location tracking, push notifications, and QR code, searchingfunctionalities enhance user engagement.',
+    '2) Prestige+ (User)',
+    'Developed a user-side platform for a Nigerian client enabling product sales using Prestige Points. The platform includes multiple shops with categorized products, allowing users to browse, add to cart, and place orders. Features like location tracking, push notifications, and QR code, searching functionalities enhance user engagement.',
     
     '• Integrated multiple shops with categorized product listings.\n'
     '• Implemented cart functionality for easy ordering.\n'
     '• Utilized geolocation for current and shop location tracking.\n'
     '• Enabled push notifications for order updates.\n'
     '• Incorporated social features for friend invites and rewards.\n'
-    '• Integrated QR code generator and scanner.\n'
+    '• Integrated QR code for customer Prestige number security.\n'
     '• Added "Add to Favorite" feature for marking preferred products and shops.\n'
-    '• Applied pagination for improved user experience in browsing large datasets.\n'
     '• Implemented a search feature for products, shops, and orders, etc.\n'
+    '• Applied pagination for improved user experience in browsing large datasets.\n',
+    
+    ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
+    'https://github.com/getSami147/Prestige-User.git',
+  ),
+    Project(
+    '3) Prestige+ (Vendor Side)',
+    'Developed a user-side platform for a Nigerian client enabling product sales using Prestige Points. The platform includes multiple shops with categorized products, allowing users to browse, add to cart, and place orders. Features like location tracking, push notifications, and QR code, searching functionalities enhance user engagement.',
+    
+    '• Create multiple shops with categorized product listings.\n'
+    '• Implemented create update delete functionality for Shop and Product.\n'
+    '• Implemented cart functionality for vendor to easy ordering for customer.\n'
+    '• Enabled push notifications for order and other updates.\n'
+    '• Integrated QR code scanner.\n'
+    '• Applied pagination for improved user experience in browsing large datasets.\n'
     '• Implemented monthly and weekly graphs for tracking sales and user engagement.',
     
     ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
-    'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
+    'https://github.com/getSami147/Prestige-Vendor.git',
   ),
   Project(
-      '3) Farmncho user and Farmer Side App',
+      '4) Farmncho (user Side)',
+      'Collaborated with a team to develop a fully functional Flutter application aimed at providing users with a seamless experience in browsing and listing products. The app utilized Flutter framework along with various APIs to achieve its functionalities.',
+    
+    '• Implemented Provider state management and MVVM architecture to ensure efficient state handling and maintainable codebase.\n'
+    '• Implemented multi-languages for better accessibility.\n'
+    '• Developed "Add to Cart" functionality allowing users to easily select and save desired products for future purchase.\n'
+    '• Stripe Payment: Secure payment processing for seamless transactions.',
+    
+    ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
+      'https://github.com/getSami147/FarmnCho-User-Side.git'),
+  Project(
+      '5) Farmncho (Vendor Side)',
       'Collaborated with a team to develop a fully functional Flutter application aimed at providing users with a seamless experience in browsing and listing products. The app utilized Flutter framework along with various APIs to achieve its functionalities.',
     
     '• Worked collaboratively with a team to design and develop the product listing application.\n'
@@ -50,9 +75,9 @@ List<Project> projectList = [
     '• Stripe Payment: Secure payment processing for seamless transactions.',
     
     ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
-      'https://github.com/Hamad-Anwar/Neumorphic-Analog-Clockify'),
+      'https://github.com/getSami147/FarmnCho-Vendor.git'),
   Project(
-      '4) E-Cash',
+      '6) E-Cash',
       'Developed a mobile app using Firebase to facilitate commission-free cash transactions between users. The app enables users to depoit or withdraw money through user-to-user connections within a 1km radius using Google Maps, eliminating the need for traditional branchless banking services like Easy paisa, Jazz Cash, or U-Paisa.',
     
     '• User Signup and Login (including Google Sign-In).\n'
@@ -67,9 +92,9 @@ List<Project> projectList = [
     '• Auto-login if previously authenticated.',
     
     ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
-      'https://github.com/Hamad-Anwar/'),
+      'https://github.com/getSami147/E-Cash.git'),
   Project(
-      '5) Household',
+      '7) Household',
       'Developed a mobile application called "Household" as the final year project using Flutter and Firebase. The application serves as a platform to connect users with household service providers, streamlining the process of accessing and booking various services.',
     
     '• Utilized Firebase for backend services, including authentication, email verification, and authentication via phone number.\n'
@@ -79,7 +104,7 @@ List<Project> projectList = [
     '• Service listing and availability management.',
     
     ['assets/images/coffee.png', 'assets/images/car.png', 'assets/images/alarm.jpg'], // Multiple images added here
-      'https://github.com/Hamad-Anwar/Neumorphic-Music_Player-Flutter'),
+      'https://github.com/getSami147/HouseHold.git'),
  
  
 ];

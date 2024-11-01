@@ -12,7 +12,8 @@ class ProjectGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: GridView.builder(
+      child: 
+      GridView.builder(
         shrinkWrap: true,
         padding: const EdgeInsets.symmetric(horizontal: 30),
         itemCount: projectList.length,
@@ -39,6 +40,7 @@ class ProjectGrid extends StatelessWidget {
                         color: Colors.blue,
                         offset: const Offset(2, 0),
                         blurRadius: controller.hovers[index] ? 20 : 10,),
+                        
                   ]),
               child: ProjectStack(index: index)
           ));

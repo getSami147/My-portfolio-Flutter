@@ -20,9 +20,9 @@ class TitleText extends StatelessWidget {
               color: Colors.white,
               fontSize: !Responsive.isDesktop(context)
                   ? Responsive.isLargeMobile(context)
-                      ? 20
-                      : 30
-                  : 50,
+                      ? 15
+                      : 25
+                  : 40,
               fontWeight: FontWeight.bold),
         ),
         kIsWeb && Responsive.isDesktop(context)
@@ -42,9 +42,9 @@ class TitleText extends StatelessWidget {
                       color: Colors.white,
                       fontSize: !Responsive.isDesktop(context)
                           ? Responsive.isLargeMobile(context)
-                              ? 20
-                              : 30
-                          : 50,
+                              ? 15
+                      : 25
+                  : 40,
                       fontWeight: FontWeight.bold),
                 ),
               )
@@ -54,9 +54,9 @@ class TitleText extends StatelessWidget {
                     color: Colors.white,
                     fontSize: !Responsive.isDesktop(context)
                         ? Responsive.isLargeMobile(context)
-                            ? 20
-                            : 30
-                        : 50,
+                            ? 15
+                            : 25
+                        : 40,
                     fontWeight: FontWeight.bold),
               ),
       ],

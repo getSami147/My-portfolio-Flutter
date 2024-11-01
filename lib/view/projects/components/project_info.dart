@@ -29,7 +29,7 @@ class ProjectStack extends StatelessWidget {
               borderRadius: BorderRadius.circular(30),
               color: bgColor),
           duration: const Duration(milliseconds: 500),
-          child:   Column(
+          child:   Column(crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(child: Image.asset(projectList[index].images[0].toString(),height: size.width>700 && size.width< 750 ?  size.height*.25:size.height*.1,fit:BoxFit.cover,width: double.infinity,)),
         Responsive.isMobile(context) ?  const SizedBox(height: defaultPadding/2,) : const SizedBox(height: defaultPadding,),
@@ -37,7 +37,7 @@ class ProjectStack extends StatelessWidget {
             projectList[index].name,
             style: Theme.of(context)
                 .textTheme
-                .headlineSmall!
+                .titleMedium!
                 .copyWith(
                 color: Colors.white,
                 fontWeight: FontWeight.bold),
